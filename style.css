@@ -1,0 +1,122 @@
+/* Inportação das fonte */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+/* Estilização geral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilizando o body */
+body {
+  background-color: #f5f2ee;
+  color: #798252;
+
+  font-family: "Cabin", serif;
+  font-weight: 400;
+}
+
+/* Estilizando o header */
+header {
+  background-color: #331f19;
+
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Estilizando o main */
+main{
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Estilizando as section */
+section{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Estilizando os titulos */
+h1, h2 {
+  font-family: "Playwrite IN", serif;
+}
+h2 {
+  color: #331f19;
+  font-size: 1.2rem;
+}
+
+/* Estilizando os inputs */
+input[type='radio'], input[type="checkbox"] {
+  accent-color: #798252;
+}
+input[type='text'], 
+input[type='password'], 
+input[type='date'], 
+input[type='email'] {
+  width: 100%;
+  padding: 0.6rem;
+
+  border: 2px solid #ccd595;
+  border-radius: 5px;
+  background-color: transparent;
+}
+input::placeholder {
+  color: #cbbba7;
+}
+
+/* Estilizando o select */
+select {
+  background-color: #ccd595;
+  color: #331f19;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+  border: none;
+}
+
+/* Estilizando a imagem */
+img {
+  width: 5rem;
+  border-radius: 5px;
+}
+
+/* Estilizando a tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  background-color: #ccd595;
+  color: #331f19;
+
+  padding: 1rem;
+}
+td {
+  color: #331f19;
+
+  text-align: center;
+  padding: 1rem;
+}
+tfoot td {
+  background-color: #331f19;
+  color: #f4f0ea;
+}
+
+/* Estilizando lista de resposta */
+details {
+  background-color: #ccd595;
+  
+  border-radius: 5px;
+  padding: 1rem;
+}
+summary {
+  color: #331f19;
+}
