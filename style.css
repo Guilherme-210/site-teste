@@ -76,8 +76,6 @@ select {
   background-color: #ccd595;
   color: #331f19;
 
-  cursor: pointer;
-
   border-radius: 5px;
   border: none;
 }
@@ -119,4 +117,50 @@ details {
 }
 summary {
   color: #331f19;
+  
+  margin: 0.5rem;
+}
+ol {
+  margin-left: 1.5rem;
+}
+ol li {
+  padding: 0.2rem;
+}
+
+/* Estilizando o feedback */
+fieldset {
+  border: 2px solid #ccd595;
+  border-radius: 5px;
+  padding: 1rem;
+}
+legend {
+  color: #331f19;
+  padding: 0 .5rem;
+}
+textarea {
+  background-color: transparent;
+  border: 2px solid #ccd595;
+  border-radius: 5px;
+}
+button {
+  background-color: #ccd595;
+  color: #331f19;
+
+  border: none;
+  border-radius: 5px;
+  padding: .8rem;
+}
+
+/* Estilização do footer */
+footer {
+  background-color: #331f19;
+  padding: 2rem;
+  text-align: center;
+}
+.p__footer {
+  color: #f4f0ea;
+}
+footer a {
+  text-decoration: none;
+  color: #ccd595;
 }
